@@ -1,3 +1,0 @@
-[submodule "NSBackbone/Libs/kvo-block-binding"]
-	path = NSBackbone/Libs/kvo-block-binding
-	url = https://github.com/rayh/kvo-block-binding.git

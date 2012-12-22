@@ -22,14 +22,6 @@
 		CFC3AA171685D656001CF86B /* NSObject+WSKeyPathBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9EE1685D655001CF86B /* NSObject+WSKeyPathBinding.m */; };
 		CFC3AA181685D656001CF86B /* NSObject+WSObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9F01685D655001CF86B /* NSObject+WSObservation.m */; };
 		CFC3AA191685D656001CF86B /* WSObservationBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9F21685D655001CF86B /* WSObservationBinding.m */; };
-		CFC3AA1A1685D656001CF86B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9F41685D655001CF86B /* InfoPlist.strings */; };
-		CFC3AA1B1685D656001CF86B /* KVOBlockBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9F61685D655001CF86B /* KVOBlockBindingViewController.xib */; };
-		CFC3AA1C1685D656001CF86B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9F81685D655001CF86B /* MainWindow.xib */; };
-		CFC3AA1E1685D656001CF86B /* KVOBlockBinding-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9FC1685D655001CF86B /* KVOBlockBinding-Info.plist */; };
-		CFC3AA221685D656001CF86B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA071685D655001CF86B /* InfoPlist.strings */; };
-		CFC3AA231685D656001CF86B /* KVOBlockBindingTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA091685D655001CF86B /* KVOBlockBindingTests-Info.plist */; };
-		CFC3AA251685D656001CF86B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA0D1685D655001CF86B /* README.md */; };
-		CFC3AA261685D656001CF86B /* WSKVOBlockBinding.vendorspec in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA0E1685D655001CF86B /* WSKVOBlockBinding.vendorspec */; };
 		CFC3AA301685D676001CF86B /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3AA2F1685D676001CF86B /* Song.m */; };
 		CFC3AA311685D92D001CF86B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9CC1685D31B001CF86B /* main.m */; };
 /* End PBXBuildFile section */
@@ -345,14 +337,6 @@
 				CFC3A9D71685D31B001CF86B /* Default-568h@2x.png in Resources */,
 				CFC3A9DD1685D31B001CF86B /* BackboneViewController.xib in Resources */,
 				CFC3AA151685D656001CF86B /* .gitignore in Resources */,
-				CFC3AA1A1685D656001CF86B /* InfoPlist.strings in Resources */,
-				CFC3AA1B1685D656001CF86B /* KVOBlockBindingViewController.xib in Resources */,
-				CFC3AA1C1685D656001CF86B /* MainWindow.xib in Resources */,
-				CFC3AA1E1685D656001CF86B /* KVOBlockBinding-Info.plist in Resources */,
-				CFC3AA221685D656001CF86B /* InfoPlist.strings in Resources */,
-				CFC3AA231685D656001CF86B /* KVOBlockBindingTests-Info.plist in Resources */,
-				CFC3AA251685D656001CF86B /* README.md in Resources */,
-				CFC3AA261685D656001CF86B /* WSKVOBlockBinding.vendorspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
