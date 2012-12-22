@@ -1,0 +1,6 @@
+
+*.xcbkptlist
+
+.DS_Store
+
+NSBackbone.xcodeproj/project.xcworkspace/xcuserdata/berzniz.xcuserdatad/UserInterfaceState.xcuserstate
