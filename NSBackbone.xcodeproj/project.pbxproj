@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC3A9C11685D31B001CF86B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC3A9C01685D31B001CF86B /* UIKit.framework */; };
+		CFC3A9C31685D31B001CF86B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC3A9C21685D31B001CF86B /* Foundation.framework */; };
+		CFC3A9C51685D31B001CF86B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC3A9C41685D31B001CF86B /* CoreGraphics.framework */; };
+		CFC3A9CB1685D31B001CF86B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9C91685D31B001CF86B /* InfoPlist.strings */; };
+		CFC3A9D11685D31B001CF86B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9D01685D31B001CF86B /* AppDelegate.m */; };
+		CFC3A9D31685D31B001CF86B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9D21685D31B001CF86B /* Default.png */; };
+		CFC3A9D51685D31B001CF86B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9D41685D31B001CF86B /* Default@2x.png */; };
+		CFC3A9D71685D31B001CF86B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9D61685D31B001CF86B /* Default-568h@2x.png */; };
+		CFC3A9DA1685D31B001CF86B /* BackboneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9D91685D31B001CF86B /* BackboneViewController.m */; };
+		CFC3A9DD1685D31B001CF86B /* BackboneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9DB1685D31B001CF86B /* BackboneViewController.xib */; };
+		CFC3AA151685D656001CF86B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9E91685D655001CF86B /* .gitignore */; };
+		CFC3AA161685D656001CF86B /* NSObject+KVOBlockBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9EC1685D655001CF86B /* NSObject+KVOBlockBinding.m */; };
+		CFC3AA171685D656001CF86B /* NSObject+WSKeyPathBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9EE1685D655001CF86B /* NSObject+WSKeyPathBinding.m */; };
+		CFC3AA181685D656001CF86B /* NSObject+WSObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9F01685D655001CF86B /* NSObject+WSObservation.m */; };
+		CFC3AA191685D656001CF86B /* WSObservationBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9F21685D655001CF86B /* WSObservationBinding.m */; };
+		CFC3AA1A1685D656001CF86B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9F41685D655001CF86B /* InfoPlist.strings */; };
+		CFC3AA1B1685D656001CF86B /* KVOBlockBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9F61685D655001CF86B /* KVOBlockBindingViewController.xib */; };
+		CFC3AA1C1685D656001CF86B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9F81685D655001CF86B /* MainWindow.xib */; };
+		CFC3AA1E1685D656001CF86B /* KVOBlockBinding-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC3A9FC1685D655001CF86B /* KVOBlockBinding-Info.plist */; };
+		CFC3AA221685D656001CF86B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA071685D655001CF86B /* InfoPlist.strings */; };
+		CFC3AA231685D656001CF86B /* KVOBlockBindingTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA091685D655001CF86B /* KVOBlockBindingTests-Info.plist */; };
+		CFC3AA251685D656001CF86B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA0D1685D655001CF86B /* README.md */; };
+		CFC3AA261685D656001CF86B /* WSKVOBlockBinding.vendorspec in Resources */ = {isa = PBXBuildFile; fileRef = CFC3AA0E1685D655001CF86B /* WSKVOBlockBinding.vendorspec */; };
+		CFC3AA301685D676001CF86B /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3AA2F1685D676001CF86B /* Song.m */; };
+		CFC3AA311685D92D001CF86B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3A9CC1685D31B001CF86B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC3AA291685D656001CF86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC3AA031685D655001CF86B /* KVOBlockBindingExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71FB1A621384C7EB00CEA223;
+			remoteInfo = KVOBlockBindingExample;
+		};
+		CFC3AA2B1685D656001CF86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC3AA031685D655001CF86B /* KVOBlockBindingExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71FB1A861384C7EC00CEA223;
+			remoteInfo = KVOBlockBindingTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFC3A9BC1685D31B001CF86B /* NSBackbone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSBackbone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC3A9C01685D31B001CF86B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFC3A9C21685D31B001CF86B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFC3A9C41685D31B001CF86B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFC3A9C81685D31B001CF86B /* NSBackbone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSBackbone-Info.plist"; sourceTree = "<group>"; };
+		CFC3A9CA1685D31B001CF86B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFC3A9CC1685D31B001CF86B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFC3A9CE1685D31B001CF86B /* NSBackbone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBackbone-Prefix.pch"; sourceTree = "<group>"; };
+		CFC3A9CF1685D31B001CF86B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFC3A9D01685D31B001CF86B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFC3A9D21685D31B001CF86B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CFC3A9D41685D31B001CF86B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CFC3A9D61685D31B001CF86B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CFC3A9D81685D31B001CF86B /* BackboneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackboneViewController.h; sourceTree = "<group>"; };
+		CFC3A9D91685D31B001CF86B /* BackboneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackboneViewController.m; sourceTree = "<group>"; };
+		CFC3A9DC1685D31B001CF86B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BackboneViewController.xib; sourceTree = "<group>"; };
+		CFC3A9E91685D655001CF86B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CFC3A9EB1685D655001CF86B /* NSObject+KVOBlockBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOBlockBinding.h"; sourceTree = "<group>"; };
+		CFC3A9EC1685D655001CF86B /* NSObject+KVOBlockBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOBlockBinding.m"; sourceTree = "<group>"; };
+		CFC3A9ED1685D655001CF86B /* NSObject+WSKeyPathBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WSKeyPathBinding.h"; sourceTree = "<group>"; };
+		CFC3A9EE1685D655001CF86B /* NSObject+WSKeyPathBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WSKeyPathBinding.m"; sourceTree = "<group>"; };
+		CFC3A9EF1685D655001CF86B /* NSObject+WSObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WSObservation.h"; sourceTree = "<group>"; };
+		CFC3A9F01685D655001CF86B /* NSObject+WSObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WSObservation.m"; sourceTree = "<group>"; };
+		CFC3A9F11685D655001CF86B /* WSObservationBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSObservationBinding.h; sourceTree = "<group>"; };
+		CFC3A9F21685D655001CF86B /* WSObservationBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSObservationBinding.m; sourceTree = "<group>"; };
+		CFC3A9F51685D655001CF86B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFC3A9F71685D655001CF86B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KVOBlockBindingViewController.xib; sourceTree = "<group>"; };
+		CFC3A9F91685D655001CF86B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CFC3A9FA1685D655001CF86B /* ExampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
+		CFC3A9FB1685D655001CF86B /* ExampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleModel.m; sourceTree = "<group>"; };
+		CFC3A9FC1685D655001CF86B /* KVOBlockBinding-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KVOBlockBinding-Info.plist"; sourceTree = "<group>"; };
+		CFC3A9FD1685D655001CF86B /* KVOBlockBinding-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KVOBlockBinding-Prefix.pch"; sourceTree = "<group>"; };
+		CFC3A9FE1685D655001CF86B /* KVOBlockBindingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOBlockBindingAppDelegate.h; sourceTree = "<group>"; };
+		CFC3A9FF1685D655001CF86B /* KVOBlockBindingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOBlockBindingAppDelegate.m; sourceTree = "<group>"; };
+		CFC3AA001685D655001CF86B /* KVOBlockBindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOBlockBindingViewController.h; sourceTree = "<group>"; };
+		CFC3AA011685D655001CF86B /* KVOBlockBindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOBlockBindingViewController.m; sourceTree = "<group>"; };
+		CFC3AA021685D655001CF86B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFC3AA031685D655001CF86B /* KVOBlockBindingExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = KVOBlockBindingExample.xcodeproj; sourceTree = "<group>"; };
+		CFC3AA081685D655001CF86B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFC3AA091685D655001CF86B /* KVOBlockBindingTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KVOBlockBindingTests-Info.plist"; sourceTree = "<group>"; };
+		CFC3AA0A1685D655001CF86B /* KVOBlockBindingTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KVOBlockBindingTests-Prefix.pch"; sourceTree = "<group>"; };
+		CFC3AA0B1685D655001CF86B /* KVOBlockBindingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOBlockBindingTests.h; sourceTree = "<group>"; };
+		CFC3AA0C1685D655001CF86B /* KVOBlockBindingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOBlockBindingTests.m; sourceTree = "<group>"; };
+		CFC3AA0D1685D655001CF86B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CFC3AA0E1685D655001CF86B /* WSKVOBlockBinding.vendorspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WSKVOBlockBinding.vendorspec; sourceTree = "<group>"; };
+		CFC3AA2E1685D676001CF86B /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		CFC3AA2F1685D676001CF86B /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC3A9B91685D31B001CF86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3A9C11685D31B001CF86B /* UIKit.framework in Frameworks */,
+				CFC3A9C31685D31B001CF86B /* Foundation.framework in Frameworks */,
+				CFC3A9C51685D31B001CF86B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC3A9B11685D31B001CF86B = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9C61685D31B001CF86B /* NSBackbone */,
+				CFC3A9BF1685D31B001CF86B /* Frameworks */,
+				CFC3A9BD1685D31B001CF86B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC3A9BD1685D31B001CF86B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9BC1685D31B001CF86B /* NSBackbone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC3A9BF1685D31B001CF86B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9C01685D31B001CF86B /* UIKit.framework */,
+				CFC3A9C21685D31B001CF86B /* Foundation.framework */,
+				CFC3A9C41685D31B001CF86B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFC3A9C61685D31B001CF86B /* NSBackbone */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9E71685D655001CF86B /* Libs */,
+				CFC3AA0F1685D655001CF86B /* Models */,
+				CFC3AA101685D655001CF86B /* ViewControllers */,
+				CFC3A9CF1685D31B001CF86B /* AppDelegate.h */,
+				CFC3A9D01685D31B001CF86B /* AppDelegate.m */,
+				CFC3A9D81685D31B001CF86B /* BackboneViewController.h */,
+				CFC3A9D91685D31B001CF86B /* BackboneViewController.m */,
+				CFC3A9DB1685D31B001CF86B /* BackboneViewController.xib */,
+				CFC3A9C71685D31B001CF86B /* Supporting Files */,
+			);
+			path = NSBackbone;
+			sourceTree = "<group>";
+		};
+		CFC3A9C71685D31B001CF86B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9C81685D31B001CF86B /* NSBackbone-Info.plist */,
+				CFC3A9C91685D31B001CF86B /* InfoPlist.strings */,
+				CFC3A9CC1685D31B001CF86B /* main.m */,
+				CFC3A9CE1685D31B001CF86B /* NSBackbone-Prefix.pch */,
+				CFC3A9D21685D31B001CF86B /* Default.png */,
+				CFC3A9D41685D31B001CF86B /* Default@2x.png */,
+				CFC3A9D61685D31B001CF86B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFC3A9E71685D655001CF86B /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9E81685D655001CF86B /* kvo-block-binding */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		CFC3A9E81685D655001CF86B /* kvo-block-binding */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9E91685D655001CF86B /* .gitignore */,
+				CFC3A9EA1685D655001CF86B /* KVOBlockBinding */,
+				CFC3A9F31685D655001CF86B /* KVOBlockBindingExample */,
+				CFC3AA031685D655001CF86B /* KVOBlockBindingExample.xcodeproj */,
+				CFC3AA061685D655001CF86B /* KVOBlockBindingTests */,
+				CFC3AA0D1685D655001CF86B /* README.md */,
+				CFC3AA0E1685D655001CF86B /* WSKVOBlockBinding.vendorspec */,
+			);
+			path = "kvo-block-binding";
+			sourceTree = "<group>";
+		};
+		CFC3A9EA1685D655001CF86B /* KVOBlockBinding */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9EB1685D655001CF86B /* NSObject+KVOBlockBinding.h */,
+				CFC3A9EC1685D655001CF86B /* NSObject+KVOBlockBinding.m */,
+				CFC3A9ED1685D655001CF86B /* NSObject+WSKeyPathBinding.h */,
+				CFC3A9EE1685D655001CF86B /* NSObject+WSKeyPathBinding.m */,
+				CFC3A9EF1685D655001CF86B /* NSObject+WSObservation.h */,
+				CFC3A9F01685D655001CF86B /* NSObject+WSObservation.m */,
+				CFC3A9F11685D655001CF86B /* WSObservationBinding.h */,
+				CFC3A9F21685D655001CF86B /* WSObservationBinding.m */,
+			);
+			path = KVOBlockBinding;
+			sourceTree = "<group>";
+		};
+		CFC3A9F31685D655001CF86B /* KVOBlockBindingExample */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3A9F41685D655001CF86B /* InfoPlist.strings */,
+				CFC3A9F61685D655001CF86B /* KVOBlockBindingViewController.xib */,
+				CFC3A9F81685D655001CF86B /* MainWindow.xib */,
+				CFC3A9FA1685D655001CF86B /* ExampleModel.h */,
+				CFC3A9FB1685D655001CF86B /* ExampleModel.m */,
+				CFC3A9FC1685D655001CF86B /* KVOBlockBinding-Info.plist */,
+				CFC3A9FD1685D655001CF86B /* KVOBlockBinding-Prefix.pch */,
+				CFC3A9FE1685D655001CF86B /* KVOBlockBindingAppDelegate.h */,
+				CFC3A9FF1685D655001CF86B /* KVOBlockBindingAppDelegate.m */,
+				CFC3AA001685D655001CF86B /* KVOBlockBindingViewController.h */,
+				CFC3AA011685D655001CF86B /* KVOBlockBindingViewController.m */,
+				CFC3AA021685D655001CF86B /* main.m */,
+			);
+			path = KVOBlockBindingExample;
+			sourceTree = "<group>";
+		};
+		CFC3AA041685D655001CF86B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3AA2A1685D656001CF86B /* KVOBlockBindingExample.app */,
+				CFC3AA2C1685D656001CF86B /* KVOBlockBindingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC3AA061685D655001CF86B /* KVOBlockBindingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3AA071685D655001CF86B /* InfoPlist.strings */,
+				CFC3AA091685D655001CF86B /* KVOBlockBindingTests-Info.plist */,
+				CFC3AA0A1685D655001CF86B /* KVOBlockBindingTests-Prefix.pch */,
+				CFC3AA0B1685D655001CF86B /* KVOBlockBindingTests.h */,
+				CFC3AA0C1685D655001CF86B /* KVOBlockBindingTests.m */,
+			);
+			path = KVOBlockBindingTests;
+			sourceTree = "<group>";
+		};
+		CFC3AA0F1685D655001CF86B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3AA2E1685D676001CF86B /* Song.h */,
+				CFC3AA2F1685D676001CF86B /* Song.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFC3AA101685D655001CF86B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC3A9BB1685D31B001CF86B /* NSBackbone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC3A9E01685D31B001CF86B /* Build configuration list for PBXNativeTarget "NSBackbone" */;
+			buildPhases = (
+				CFC3A9B81685D31B001CF86B /* Sources */,
+				CFC3A9B91685D31B001CF86B /* Frameworks */,
+				CFC3A9BA1685D31B001CF86B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSBackbone;
+			productName = NSBackbone;
+			productReference = CFC3A9BC1685D31B001CF86B /* NSBackbone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC3A9B31685D31B001CF86B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tal Bereznitskey";
+			};
+			buildConfigurationList = CFC3A9B61685D31B001CF86B /* Build configuration list for PBXProject "NSBackbone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFC3A9B11685D31B001CF86B;
+			productRefGroup = CFC3A9BD1685D31B001CF86B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CFC3AA041685D655001CF86B /* Products */;
+					ProjectRef = CFC3AA031685D655001CF86B /* KVOBlockBindingExample.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CFC3A9BB1685D31B001CF86B /* NSBackbone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CFC3AA2A1685D656001CF86B /* KVOBlockBindingExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = KVOBlockBindingExample.app;
+			remoteRef = CFC3AA291685D656001CF86B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFC3AA2C1685D656001CF86B /* KVOBlockBindingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KVOBlockBindingTests.octest;
+			remoteRef = CFC3AA2B1685D656001CF86B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC3A9BA1685D31B001CF86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3A9CB1685D31B001CF86B /* InfoPlist.strings in Resources */,
+				CFC3A9D31685D31B001CF86B /* Default.png in Resources */,
+				CFC3A9D51685D31B001CF86B /* Default@2x.png in Resources */,
+				CFC3A9D71685D31B001CF86B /* Default-568h@2x.png in Resources */,
+				CFC3A9DD1685D31B001CF86B /* BackboneViewController.xib in Resources */,
+				CFC3AA151685D656001CF86B /* .gitignore in Resources */,
+				CFC3AA1A1685D656001CF86B /* InfoPlist.strings in Resources */,
+				CFC3AA1B1685D656001CF86B /* KVOBlockBindingViewController.xib in Resources */,
+				CFC3AA1C1685D656001CF86B /* MainWindow.xib in Resources */,
+				CFC3AA1E1685D656001CF86B /* KVOBlockBinding-Info.plist in Resources */,
+				CFC3AA221685D656001CF86B /* InfoPlist.strings in Resources */,
+				CFC3AA231685D656001CF86B /* KVOBlockBindingTests-Info.plist in Resources */,
+				CFC3AA251685D656001CF86B /* README.md in Resources */,
+				CFC3AA261685D656001CF86B /* WSKVOBlockBinding.vendorspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC3A9B81685D31B001CF86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3AA311685D92D001CF86B /* main.m in Sources */,
+				CFC3A9D11685D31B001CF86B /* AppDelegate.m in Sources */,
+				CFC3A9DA1685D31B001CF86B /* BackboneViewController.m in Sources */,
+				CFC3AA161685D656001CF86B /* NSObject+KVOBlockBinding.m in Sources */,
+				CFC3AA171685D656001CF86B /* NSObject+WSKeyPathBinding.m in Sources */,
+				CFC3AA181685D656001CF86B /* NSObject+WSObservation.m in Sources */,
+				CFC3AA191685D656001CF86B /* WSObservationBinding.m in Sources */,
+				CFC3AA301685D676001CF86B /* Song.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFC3A9C91685D31B001CF86B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3A9CA1685D31B001CF86B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFC3A9DB1685D31B001CF86B /* BackboneViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3A9DC1685D31B001CF86B /* en */,
+			);
+			name = BackboneViewController.xib;
+			sourceTree = "<group>";
+		};
+		CFC3A9F41685D655001CF86B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3A9F51685D655001CF86B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFC3A9F61685D655001CF86B /* KVOBlockBindingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3A9F71685D655001CF86B /* en */,
+			);
+			name = KVOBlockBindingViewController.xib;
+			sourceTree = "<group>";
+		};
+		CFC3A9F81685D655001CF86B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3A9F91685D655001CF86B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CFC3AA071685D655001CF86B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3AA081685D655001CF86B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC3A9DE1685D31B001CF86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFC3A9DF1685D31B001CF86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC3A9E11685D31B001CF86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSBackbone/NSBackbone-Prefix.pch";
+				INFOPLIST_FILE = "NSBackbone/NSBackbone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFC3A9E21685D31B001CF86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSBackbone/NSBackbone-Prefix.pch";
+				INFOPLIST_FILE = "NSBackbone/NSBackbone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC3A9B61685D31B001CF86B /* Build configuration list for PBXProject "NSBackbone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3A9DE1685D31B001CF86B /* Debug */,
+				CFC3A9DF1685D31B001CF86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC3A9E01685D31B001CF86B /* Build configuration list for PBXNativeTarget "NSBackbone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3A9E11685D31B001CF86B /* Debug */,
+				CFC3A9E21685D31B001CF86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC3A9B31685D31B001CF86B /* Project object */;
+}
