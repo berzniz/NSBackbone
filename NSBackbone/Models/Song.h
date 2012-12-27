@@ -11,6 +11,6 @@
 @interface Song : NSObject
 
 @property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) NSNumber *favorite;
+@property (assign, nonatomic) BOOL favorite;
 
 @end

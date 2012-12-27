@@ -33,7 +33,7 @@
 {
     model = [[Song alloc] init];
     model.name = @"Yesterday";
-    model.favorite = @NO;
+    model.favorite = NO;
 }
 
 #pragma mark - Observing
@@ -67,8 +67,7 @@
 
 - (IBAction)toggleFavorite:(id)sender
 {
-    BOOL toggledValue = (![model.favorite boolValue]);
-    model.favorite = [NSNumber numberWithBool:toggledValue];
+    model.favorite = !model.favorite;
 }
 
 #pragma mark - Rendering UI
@@ -80,7 +79,7 @@
 
 - (void)renderFavorite
 {
-    favoriteLabel.text = ([model.favorite boolValue] ? @"★" : @"☆");
+    favoriteLabel.text = (model.favorite ? @"★" : @"☆");
 }
 
 - (void)render
