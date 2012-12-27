@@ -29,6 +29,14 @@
     [self generateNewSongNameEveryTwoSeconds];
 }
 
+- (void)viewWillUnload
+{
+    // There is no need to observe changes when our view is not loaded
+    [self removeObservation];
+
+    [super viewWillUnload];
+}
+
 - (void)createSong
 {
     model = [[Song alloc] init];
@@ -49,17 +57,32 @@
     }];
 }
 
+- (void)removeObservation
+{
+    [model removeAllBlockBasedObserversForOwner:self];
+}
+
 #pragma mark - Generating new song names
 
 - (void)generateNewSongNameEveryTwoSeconds
 {
-    [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(generateNewSongName) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:2.0
+                                     target:self
+                                   selector:@selector(generateNewSongName)
+                                   userInfo:nil
+                                    repeats:YES];
 }
 
 - (void)generateNewSongName
 {
     static NSInteger index = 0;
-    NSArray *songNames = @[@"I Want to Hold Your Hand", @"Norwegian Wood", @"Hey Jude", @"Strawberry Fields Forever", @"Yesterday"];
+    NSArray *songNames = @[
+        @"I Want to Hold Your Hand",
+        @"Norwegian Wood",
+        @"Hey Jude",
+        @"Strawberry Fields Forever",
+        @"Yesterday"
+    ];
     model.name = [songNames objectAtIndex:(index++ % [songNames count])];
 }
 
@@ -86,6 +109,13 @@
 {
     [self renderName];
     [self renderFavorite];
+}
+
+#pragma mark - Cleanup
+
+- (void)dealloc
+{
+    [self removeObservation];
 }
 
 @end
